@@ -1,0 +1,99 @@
+html{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%
+}
+
+/*Senate Page*/
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+}
+#stateLogo{
+    height: 15%;
+    width: 15%;
+    margin-bottom: 15px;
+}
+#emailIcon{
+    height: 20px;
+    width: 20px;
+}
+.logoEmail{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+#emailTGIF{
+    font-size: 20px;
+    font-family:cursive;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkbox-inline{
+    margin-left: 5px;
+}
+.informationLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.panel-footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#generalTableSenate_filter{
+    margin-bottom: 30px;
+    float: left;
+}
+#DataTables_Table_0_filter{
+    margin-bottom: 30px;
+    float: left;
+}
+
+/*Home Page*/
+.informationUSGover{
+    width: 70%;
+}
+.informationAndPicture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-circle{
+    width:20vw;
+}
+
+/*attendanceHouse*/
+.attendace-houseFirstTable{
+    display: flex;
+    justify-content: space-between;
+}
+.attendanceText{
+    text-align: justify;
+}
+.titleRigth{
+    text-align-last: right;
+}
+.secondTable-thirdTable{
+    display: flex;
+    justify-content:space-between;
+}
+.attendanceText, .tableTwo{
+    width: 48%;
+}
+.tableOne, .tableThree{
+    width: 48%;
+}
+.tableTwo, .tableTwo{
+    margin-bottom: 20px;
+}
+
+hr{
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
